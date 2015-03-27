@@ -1,0 +1,10 @@
+name: chefdk
+version: 0.0.1
+description: Wercker step for installing Chef Development Kit
+kyewords:
+  - chef
+  - chefdk
+properties:
+  version:
+    type: string
+    required: false
