@@ -12,12 +12,12 @@ In the `wercker.yml` of your application use the following step definition:
 ```yaml
 steps:
   - poppen/chefdk:
-      version: 0.4.0
+      version: 0.5.1
 ```
 
 ## Options
 
-- `version` (optional) Specify the version of Chef Development Kit. If left empty, version 0.4.0 will be installed.
+- `version` (optional) Specify the version of Chef Development Kit. If left empty, version 0.5.1 will be installed.
 
 ## Requirements
 
