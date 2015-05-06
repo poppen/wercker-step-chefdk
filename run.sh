@@ -2,7 +2,7 @@
 
 # if no version is provided use the latest version
 if [ -z "${WERCKER_CHEFDK_VERSION}" ]; then
-    export WERCKER_CHEFDK_VERSION=0.4.0
+    export WERCKER_CHEFDK_VERSION=0.5.1
 fi
 
 export CHEF_DEB=chefdk_${WERCKER_CHEFDK_VERSION}-1_amd64.deb
